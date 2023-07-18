@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.full_page{
+    background-color: #e9e9e9;
+    overflow:hidden
+}
+.nav_bar{
+    height: 126px;
+    width: 100%;
+    border: currentColor;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+    background-color: gray;
+}
+.nav1{
+    width: 60%;
+}
+.img1{
+    padding: 39px 10px 50px 16px;
+}
+.img2{
+    height: 107px;
+    width: 145px;
+    padding-left: 430px;
+}
+.nav2{
+   width: 262px;
+}
+.icons{
+    padding: 39px 10px 50px 16px;
+    display: flex;
+}
+.icons1{
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 32px;
+}
+.icons2{
+    padding-left: 30px
+}
+.btn{
+    padding:10px 10px 10px 29px;
+    border: transparent;
+    border-right-color: blue ;
+    width: 100px;
+    height: 27px;
+}
+.btn button{
+    height: 30px;
+    width: 90px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 15px;
+}
+.banner{
+    margin: 0px 50px 50px 103px;
+    padding: 142px 10px 10px 10px;
+}
+.banner p{
+    font-size: 14px;
+    padding-bottom: 16px;
+    letter-spacing: 5px;
+}
+.banners{
+    display: flex;
+    height: 480px;
+}
+.bannersleft img{
+    width: 743px;
+    /*position:absolute;*/
+}
+.b_top{
+    height: 306px;
+    padding: 0px 0px 0px 799px;
+    margin-left: 10px;
+    width: 347px;
+    z-index: 0.7;
+}
+.banners11{
+    height: 120px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.banners2 p{
+    color: rgb(14, 14, 14);
+}
+.b_bottom{
+    height: 195px;
+    width: 910px;
+    margin-left: -570px;
+    padding-left: 101px;
+    background-color: #f1efe9;
+}
+.b_bottom p{
+    font-size: 12px;
+    padding-left: 569px;
+    font-style: italic;
+}
+.banners3 p{
+    font-style: italic;
+} 
+.judge{
+    display: flex;
+    height: 40px;
+    padding-left: 571px;
+}
+.card1 h4{
+    letter-spacing: 5px;
+}
+.section_one{
+    display: flex;
+    margin: 50px 50px 45px 103px;
+}
+.card1{
+    padding-right: 75px;
+}
+.card1 img{
+    height: 206px;
+}
+.champ{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+.champ1{
+    display: flex;
+}
+.champ img{
+    height: 11px;
+}
+.champ p{
+    font-size: 10px;
+}
+.more{
+    padding:19px 100px 100px 341px;
+}
+.more h4{
+    text-align: center;
+    padding-right: 200px;
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding: 60px 57px 60px 340px;
+    width: 80px;
+}
+.more img{
+    height: 152px;
+    width: 717px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    width: 154px;
+}
+.socials img{
+    padding-left: 10px;
+}
